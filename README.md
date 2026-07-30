@@ -36,10 +36,7 @@ The dataset contains information about anime, including:
 Extracted the total number of episodes from the Title column using Regular Expressions (Regex).
 
 **Output**
-
-<p align="center">
-  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 214312.png"" width="850">
-</p>
+<img width="1267" height="457" alt="Screenshot 2026-07-30 214312" src="https://github.com/user-attachments/assets/157984f2-b567-47bb-a5cb-43d78439be6d" />
 
 ---
 

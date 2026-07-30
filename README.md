@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project demonstrates data analysis and data cleaning using **Python** and **Pandas** on an Anime dataset. The objective is to practice essential data analysis techniques such as data cleaning, feature engineering, filtering, grouping, pivot tables, and extracting useful insights from raw data.
+This project demonstrates data cleaning, feature engineering, and exploratory data analysis (EDA) using **Python** and **Pandas** on a real-world Anime dataset. The goal is to extract meaningful insights by cleaning raw data, creating new features, and analyzing anime ratings and episode information.
 
 ---
 
@@ -26,94 +26,162 @@ The dataset contains information about anime, including:
 * Airing Date
 * Members
 * Type
-* Genre (if available)
 
 ---
 
-## 📚 Topics Covered
+## 📚 Project Tasks
 
-### Data Cleaning
+### 1. Create a New Episode Count Column
 
-* Handling missing values
-* Removing duplicates
-* Converting data types
-* String operations
-* Extracting numerical values using Regular Expressions (Regex)
+Extracted the total number of episodes from the Title column using Regular Expressions (Regex).
 
-### Feature Engineering
+**Output**
 
-* Created `episode_count` column
-* Extracted airing period
-* Calculated anime duration in months
-
-### Data Analysis
-
-* Top 5 highest-rated anime
-* Highest-rated anime
-* Anime with the highest episode count
-* Top 5 anime by episode count
-* Longest-running anime
-* Summary statistics
-* GroupBy operations
-* Pivot Table analysis
-* Crosstab analysis
+<p align="center">
+  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 214312.png"" width="850">
+</p>
 
 ---
 
-## 📊 Libraries Used
+### 2. Create a Timestamp / Airing Duration Column
 
-```python
-import pandas as pd
-import numpy as np
-```
+Extracted the airing period from the Title column and calculated the duration in months.
+
+**Output**
+
+<p align="center">
+  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 214911.png"" width="850">
+</p>
 
 ---
 
-## 📈 Key Pandas Concepts Practiced
+### 3. Convert Airing Timestamp into Total Months
+
+Extracted the airing period from the dataset and calculated the total number of months each anime was aired.
+
+**Output**
+
+<p align="center">
+  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 215238.png"" width="850">
+</p>
+
+
+### 4. Find the Highest Rated Anime
+
+Identified the anime with the highest score in the dataset.
+
+**Output**
+
+<p align="center">
+  <img src="images/highest_score.png" width="850">
+</p>
+
+---
+
+### 5. Top 5 Highest Rated Anime
+
+Displayed the five highest-rated anime using Pandas.
+
+**Output**
+
+<p align="center">
+  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 215328.png"" width="850">
+</p>
+
+---
+
+### 6. Anime with the Highest Episode Count
+
+Found the anime with the maximum number of episodes.
+
+**Output**
+
+<p align="center">
+  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 215650.png"" width="850">
+</p>
+
+---
+
+### 7. Top 5 Anime by Episode Count
+
+Displayed the top five anime with the highest episode counts.
+
+**Output**
+
+<p align="center">
+  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 215740.png"" width="850">
+</p>
+
+---
+
+### 8. Longest Running Anime
+
+Calculated and identified the anime that ran for the longest duration.
+
+**Output**
+
+<p align="center">
+  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 215820.png"" width="850">
+</p>
+
+---
+
+## 📈 Pandas Concepts Practiced
 
 * DataFrame & Series
-* Indexing & Slicing
-* Filtering
-* Sorting
+* Data Cleaning
 * Missing Value Handling
+* String Operations
+* Regular Expressions (Regex)
+* Feature Engineering
+* Indexing & Filtering
+* Sorting
 * GroupBy
 * Pivot Tables
 * Crosstab
-* String Methods
-* Regular Expressions (Regex)
-* Feature Engineering
+* Data Type Conversion
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 Key Learnings
 
-After completing this project, I gained hands-on experience with:
+Through this project, I learned how to:
 
-* Cleaning real-world datasets
-* Performing exploratory data analysis (EDA)
-* Extracting useful information from text columns
-* Creating new features from existing data
-* Summarizing data using GroupBy and Pivot Tables
-* Writing clean and efficient Pandas code
+* Clean real-world datasets
+* Extract information from text columns using Regex
+* Create new features from existing data
+* Perform exploratory data analysis (EDA)
+* Use Pandas efficiently for data manipulation
+* Generate meaningful insights from raw datasets
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add data visualizations using Matplotlib and Seaborn
+* Create visualizations using Matplotlib and Seaborn
 * Perform advanced exploratory data analysis
 * Build an interactive Power BI dashboard using the cleaned dataset
-* Create predictive models using Machine Learning
+* Apply Machine Learning models for prediction and recommendation
 
 ---
 
-## 📷 Sample Analysis
+## 📁 Project Structure
 
-* Top 5 Highest Rated Anime
-* Top 5 Longest Running Anime
-* Highest Episode Count
-* Average Score Analysis
-* Pivot Table Summary
+```text
+anime-data-analysis-pandas/
+│
+├── Anime_Data_Analysis.ipynb
+├── anime.csv
+├── README.md
+└── images/
+    ├── episode_count.png
+    ├── timestamp_column.png
+    ├── highest_score.png
+    ├── top5_score.png
+    ├── highest_episode.png
+    ├── top5_episode.png
+    └── longest_running.png
+```
 
 ---
 
@@ -122,3 +190,5 @@ After completing this project, I gained hands-on experience with:
 **Anurag Deshmukh**
 
 **Skills:** Python • Pandas • NumPy • SQL • Power BI • Data Analysis
+
+⭐ If you found this project helpful, feel free to star the repository.

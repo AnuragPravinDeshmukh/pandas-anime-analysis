@@ -64,8 +64,7 @@ Extracted the airing period from the dataset and calculated the total number of 
 Identified the anime with the highest score in the dataset.
 
 **Output**
-<img width="1015" height="355" alt="Screenshot 2026-07-30 215328" src="https://github.com/user-attachments/assets/0a19568f-5fd6-4d26-ae35-47b8bc2a246f" />
-
+<img width="832" height="285" alt="Screenshot 2026-07-30 215650" src="https://github.com/user-attachments/assets/f942585b-41c3-4deb-b46a-c01b3fd9bf73" />
 
 ---
 
@@ -74,8 +73,7 @@ Identified the anime with the highest score in the dataset.
 Displayed the five highest-rated anime using Pandas.
 
 **Output**
-<img width="832" height="285" alt="Screenshot 2026-07-30 215650" src="https://github.com/user-attachments/assets/f942585b-41c3-4deb-b46a-c01b3fd9bf73" />
-
+<img width="1015" height="355" alt="Screenshot 2026-07-30 215328" src="https://github.com/user-attachments/assets/0a19568f-5fd6-4d26-ae35-47b8bc2a246f" />
 
 ---
 

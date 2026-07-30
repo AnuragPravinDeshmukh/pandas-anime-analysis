@@ -45,10 +45,8 @@ Extracted the total number of episodes from the Title column using Regular Expre
 Extracted the airing period from the Title column and calculated the duration in months.
 
 **Output**
+<img width="1025" height="428" alt="Screenshot 2026-07-30 214911" src="https://github.com/user-attachments/assets/bcbb9b70-7110-41e3-b04f-1d339eea8482" />
 
-<p align="center">
-  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 214911.png"" width="850">
-</p>
 
 ---
 
@@ -57,10 +55,8 @@ Extracted the airing period from the Title column and calculated the duration in
 Extracted the airing period from the dataset and calculated the total number of months each anime was aired.
 
 **Output**
+<img width="1123" height="487" alt="Screenshot 2026-07-30 215238" src="https://github.com/user-attachments/assets/605cb69e-9729-46fe-8215-4fad8a47c888" />
 
-<p align="center">
-  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 215238.png"" width="850">
-</p>
 
 
 ### 4. Find the Highest Rated Anime
@@ -68,10 +64,8 @@ Extracted the airing period from the dataset and calculated the total number of 
 Identified the anime with the highest score in the dataset.
 
 **Output**
+<img width="1015" height="355" alt="Screenshot 2026-07-30 215328" src="https://github.com/user-attachments/assets/0a19568f-5fd6-4d26-ae35-47b8bc2a246f" />
 
-<p align="center">
-  <img src="images/highest_score.png" width="850">
-</p>
 
 ---
 
@@ -80,10 +74,8 @@ Identified the anime with the highest score in the dataset.
 Displayed the five highest-rated anime using Pandas.
 
 **Output**
+<img width="832" height="285" alt="Screenshot 2026-07-30 215650" src="https://github.com/user-attachments/assets/f942585b-41c3-4deb-b46a-c01b3fd9bf73" />
 
-<p align="center">
-  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 215328.png"" width="850">
-</p>
 
 ---
 
@@ -92,10 +84,7 @@ Displayed the five highest-rated anime using Pandas.
 Found the anime with the maximum number of episodes.
 
 **Output**
-
-<p align="center">
-  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 215650.png"" width="850">
-</p>
+<img width="1017" height="347" alt="Screenshot 2026-07-30 215740" src="https://github.com/user-attachments/assets/d5656f45-0015-437f-9212-ff375da6f438" />
 
 ---
 
@@ -104,10 +93,8 @@ Found the anime with the maximum number of episodes.
 Displayed the top five anime with the highest episode counts.
 
 **Output**
+<img width="1017" height="347" alt="Screenshot 2026-07-30 215740" src="https://github.com/user-attachments/assets/25e72400-7aa7-4b33-87e3-bb6f71ca1ef0" />
 
-<p align="center">
-  <img src=""C:\Users\Victus\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 215740.png"" width="850">
-</p>
 
 ---
 
